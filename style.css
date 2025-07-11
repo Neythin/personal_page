@@ -216,6 +216,13 @@ span {
     font-weight: 700;
     line-height: 1.3;
     color: #e2bb26;
+    display: inline-block;
+    transition: 0.1s ease;
+}
+
+.projects-content h1:hover {
+    color: #e2bb26;
+    border-bottom: 3px solid #e2bb26;
 }
 
 .projects-content h3 {
@@ -247,6 +254,10 @@ span {
 
 .aboutme-content p {
     font-size: 1.6rem;
+}
+
+.aboutme-img {
+    position: relative;
 }
 
 
